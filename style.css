@@ -1,14 +1,56 @@
 body{
-    background:#000;
-    color:#ffffff;
+    background:#111;
+    margin:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    font-family:Consolas, monospace;
 }
 
 #terminal{
-    border:2px solid #ffffff;
-    box-shadow:0 0 20px #ffffff;
+    width:900px;
+    height:520px;
+    background:#000;
+    border:2px solid white;
+    border-radius:10px;
+    padding:20px;
+    color:white;
+    overflow-y:auto;
+    box-shadow:0 0 25px rgba(255,255,255,.15);
+}
+
+.line{
+    margin:10px 0;
+    white-space:pre-wrap;
+}
+
+.prompt{
+    display:flex;
+    align-items:center;
+    margin-top:10px;
+}
+
+.prompt span{
+    color:white;
+    margin-right:8px;
 }
 
 input{
-    background:black;
-    color:#ffffff;
+    background:none;
+    border:none;
+    color:white;
+    outline:none;
+    width:100%;
+    font-family:inherit;
+    font-size:18px;
+}
+
+::-webkit-scrollbar{
+    width:8px;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#666;
+    border-radius:5px;
 }
