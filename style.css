@@ -1,1 +1,38 @@
+body{
+    background:#000;
+    color:#00ff00;
+    font-family:Consolas, monospace;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
 
+#terminal{
+    width:900px;
+    height:550px;
+    border:2px solid #00ff00;
+    padding:20px;
+    overflow-y:auto;
+    box-shadow:0 0 20px #00ff00;
+}
+
+#output{
+    white-space:pre-wrap;
+    line-height:1.7;
+}
+
+#inputArea{
+    display:flex;
+    margin-top:15px;
+}
+
+input{
+    background:black;
+    color:#00ff00;
+    border:none;
+    outline:none;
+    font-family:inherit;
+    font-size:18px;
+    width:100%;
+}
