@@ -16,7 +16,10 @@ async function type(text, speed = 28){
     for(const char of text){
         div.innerHTML += char;
         await sleep(speed);
-        output.scrollTop = output.scrollHeight;
+        window.scrollTo({
+    top: document.body.scrollHeight,
+    behavior: "smooth"
+});
     }
 }
 
