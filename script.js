@@ -7,7 +7,7 @@ function sleep(ms){
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-async function type(text, speed = 28){
+async function type(text, speed = 60){
 
     const div = document.createElement("div");
     div.className = "line";
