@@ -235,8 +235,10 @@ input.addEventListener("keydown", async function(e){
             await type("thank you for simply being you.");
             await type("");
 
-            await type("Kasi nakaka baliw na yung kagandahan mo...");
-            await type("CHAROT HAHAHA");
+            await type("Ayoko nang itago tong nararamdaman ko");
+
+            await type("Kasi nakaka baliw na yung kagandahan mo eh, di na healthy");
+            await type("HAHAHA CHAROT");
             await type("");
 
             await type("Take care, always!...");
