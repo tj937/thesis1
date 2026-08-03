@@ -236,7 +236,7 @@ input.addEventListener("keydown", async function(e){
             await type("CHAROT HAHAHA");
             await type("");
 
-            await type("Take care, always.");
+            await type("Take care, always!...");
             await type("");
 
             await type("-Zav",60);
